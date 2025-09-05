@@ -1,0 +1,103 @@
+Enter a command (type help for details):
+help 
+Possible commands are as follows:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+CSCI 2110 Assignment 1 4
+Enter a command (type help for details):
+print
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+Enter a command (type help for details):
+create 3 3 fast flexible
+Input a name for the new piece:
+Jedi
+Input a colour for the new piece:
+Red
+Enter a command (type help for details):
+print
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - JediRedFF - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+Enter a command (type help for details):
+move 7 7
+Error: no piece at (7,7)
+Enter a command (type help for details):
+move 3 3 up 2
+Piece at (3,3) moved up by 2 spaces
+Enter a command (type help for details):
+print
+- - - - - - - -
+- - - JediRedFF - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+Enter a command (type help for details):
+exit
+Done.
+
+
+
+Enter a command (type help for details):
+create 4 4 
+Input a name for the new piece:
+ramo
+Input a colour for the new piece:
+red
+Enter a command (type help for details):
+print
+-              -              -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+-              -              -              -              ramoredS       -              -              -              
+-              -              -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+Enter a command (type help for details):
+move 4 4 left
+Piece at (4,4) moved up by 1 space
+Enter a command (type help for details):
+create 1 2 fast flexible 
+Input a name for the new piece:
+camo
+Input a colour for the new piece:
+blue
+Enter a command (type help for details):
+print
+-              -              -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+-              camoblueFF     -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+-              -              -              ramoredS       -              -              -              -              
+-              -              -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+-              -              -              -              -              -              -              -              
+Enter a command (type help for details):
+help
+Possible commands are as follows:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+Enter a command (type help for details):
+exit
+Done.
